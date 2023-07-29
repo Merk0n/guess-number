@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Press+Start+2P&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.btn {
+  font-family: "Press Start 2P", cursive;
+  padding: 20px 40px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px 30px 60px 30px;
+}
+
+header {
+  border-bottom: #f8f9fa 4px solid;
+  position: relative;
+  margin-bottom: 64px;
+}
+
+.number {
+  position: absolute;
+  left: 50%;
+  background-color: #f8f9fa;
+  color: #212529;
+  padding: 30px 0;
+  width: 100px;
+  text-align: center;
+  transform: translate(-50%, 50%);
+  font-size: 24px;
+  bottom: 0;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  padding: 20px;
+}
+
+.check {
+  width: 250px;
+  align-items: center;
+}
+
+.guess {
+  color: inherit;
+  background-color: inherit;
+  font-family: inherit;
+  font-size: 24px;
+  text-align: center;
+  width: 300px;
+  border: 2px solid #868e96;
+  padding: 25px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+  padding: 20px;
+}
