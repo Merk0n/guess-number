@@ -80,3 +80,7 @@ header {
   width: 400px;
   padding: 20px;
 }
+
+.message {
+  margin-bottom: 48px;
+}
